@@ -1,1 +1,96 @@
+body{
+    background-color: #0c253e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+}
 
+header{
+    text-align: center;
+    background-color: #124c7c;
+    color: aquamarine;
+    width: 100%;
+    margin: 0;
+    bottom:auto;
+}
+
+nav{
+    background-color: #0e3c61;
+    height: 100%;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    color: azure;
+}
+nav a:hover{
+    color: aqua;
+}
+
+.container{
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1d7fc3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.container h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container img{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.servidores{
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1d7fc3;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.servidores img{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer{
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #140f07;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a{
+    color:azure;
+}
+
+footer a:hover{
+    color:aqua;
+}
+
+footer #nombre{
+    text-align: center;
+}
